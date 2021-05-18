@@ -9,7 +9,7 @@
 # Diversified portfolio analyzer
 
 
-:star: Cryptocurrency and index funds.
+:star: Cryptocurrencies and index funds.
 
 
 In this Project, we assumed the role of a quantitative analyst for a FinTech investing platform. This platform aims to offer clients a one-stop online investment solution for their portfolio.
@@ -53,14 +53,12 @@ In this Project, we assumed the role of a quantitative analyst for a FinTech inv
 
 ### What special about out project?
 
-
-[
-<img width="1188" alt="Screen Shot 2021-05-18 at 10 43 02 AM" src="https://user-images.githubusercontent.com/80833988/118699057-f1e9be00-b7c5-11eb-8767-eccf1652c50b.png">
-](url)
-
-
 * Very well  commented code with deeply analyses and explained results for technical user lacking an understanding
 * Reading financial data and making the connection between code results and meaning of it for the user unexperienced in financial tools and lanscrape
+
+[
+<img width="1193" alt="Screen Shot 2021-05-18 at 10 54 47 AM" src="https://user-images.githubusercontent.com/80833988/118700386-78eb6600-b7c7-11eb-88e1-62905fda34b6.png">
+](url)
 
 
 
