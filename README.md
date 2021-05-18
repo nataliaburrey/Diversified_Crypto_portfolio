@@ -113,7 +113,7 @@ jupyter lab
 ```
 
 * In Jupyter Lab access saved repo folder 
-* Choose [ etf_analyzer.ipynb ] file to see the analysis report.
+* Choose [ project_1.ipynb ] file to see the analysis report.
 
 
 
@@ -125,12 +125,29 @@ To deploy Voilà library via terminal type in code:
 
 
 ```
-conda activate dev
+conda activate <name-of-your-enviroment>
 cd <relative-path-to-notebook>
 voila <notebook_name>
 
 ```
-The file will be opened into default WEB browser
+The file will be opened into default WEB browser, like on the following video.
+
+[
+
+https://user-images.githubusercontent.com/80833988/118702763-34ad9500-b7ca-11eb-8465-a1caf78b2873.mov
+
+](url)
+
+
+User will be able to explore and interact with Analyses report.
+Following video shows the interactive visualization withing the Jupyter Notebook in action
+
+
+[
+
+https://user-images.githubusercontent.com/80833988/118703354-db923100-b7ca-11eb-9a61-19ca800ff21a.mov
+
+](url)
 
 ## Work with data
 
