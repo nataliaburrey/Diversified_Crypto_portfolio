@@ -132,22 +132,22 @@ voila <notebook_name>
 ```
 The file will be opened into default WEB browser, like on the following video.
 
-[
+
 
 https://user-images.githubusercontent.com/80833988/118702763-34ad9500-b7ca-11eb-8465-a1caf78b2873.mov
 
-](url)
+
 
 
 User will be able to explore and interact with Analyses report.
 Following video shows the interactive visualization withing the Jupyter Notebook in action
 
 
-[
+
 
 https://user-images.githubusercontent.com/80833988/118703354-db923100-b7ca-11eb-9a61-19ca800ff21a.mov
 
-](url)
+
 
 ## Work with data
 
