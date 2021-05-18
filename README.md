@@ -1,46 +1,101 @@
 [
-<img width="990" alt="Screen Shot 2021-05-11 at 8 20 25 PM" src="https://user-images.githubusercontent.com/80833988/117914014-50c7a880-b297-11eb-983b-9e0e8fbc6390.png">
+<img width="845" alt="Screen Shot 2021-05-18 at 9 50 41 AM" src="https://user-images.githubusercontent.com/80833988/118692111-96680200-b7be-11eb-8a31-a39556f521b6.png">
 ](url)
 
-# CRYPTO analysis
-## Using Python, and the Voilà library to analyze the performance of a hypothetical fintech ETF.
-
-> "A Python / Jupyter Lab analysis comparing SnP investment to the new, developing investment cryptocurrency.
-This comparison allows for users to make a choise of most 
+> "Diversification is a protection against ignorance. It can be achieved by combining assets that move in the opposite direction, which means those assets react to the same economic event differently.
 "
 
 
-- [Introduction](#Introduction)
-- [Why?](#why)
-- [How to Install](#how-to-install)
-- [How to use](#how-to-use)
-- Technologies used
-    - [Libraries](#Libraries)
-    - [Interfaces](#Interfaces)
+# Diversified portfolio analyzer
 
 
-
-## Introduction
-
-In this Challenge I created a Jupyter notebook with analysis of the ETF data that a SQL database stores. Different data manipulations, like SELECTing data into the separate dataframe, JOINing different tables within a database, slicing data with ORDER and LIMIT function for the purpose of financial analyses.
-
-You can find my report, including the answers to the questions from the Challenge instructions in etf_analyzer.ipynb file. For each line of code there is comments.  Necessary titles for professionally styled interactive hvplot visualizations are included. 
-
-Voilà library were used to deploy the visualizations to a web application. 
-Here is the video demonstrating deployment of the library via terminal and brief interaction with it on web.
+:star: Cryptocurrency and index funds.
 
 
-## Why?
-
+In this Project, we assumed the role of a quantitative analyst for a FinTech investing platform. This platform aims to offer clients a one-stop online investment solution for their portfolio.
 
 [
-<img width="792" alt="Screen Shot 2021-05-08 at 10 35 54 AM" src="https://user-images.githubusercontent.com/80833988/117548325-39639380-afe9-11eb-85d4-e48188f03f50.png">
+<img width="595" alt="Screen Shot 2021-05-18 at 10 22 37 AM" src="https://user-images.githubusercontent.com/80833988/118696288-ff517900-b7c2-11eb-944d-50b5ca93cc94.png">
 ](url)
 
 
-(https://courses.bootcampspot.com/courses/740/assignments/10690?module_item_id=168908)
 
-## How to install
+## Table of content
+
+
+
+
+## An executive summary
+
+*  A portfolio analyzer: Create a framework can be used in the future to create a  Diversified Portfolio can be tune in for any goal and risk-tolerance
+* Put into practice our new skills we learned: collect, clean and analyze complex financial data and how to use APIs to access a wide range of high-quality, up-to-date data in real time. 
+* Using Python and Pandas libraries compares the performance of different assets. Include calculations, tables, financial models and interactive visualizations. Also include information about past  performance of the portfolios, as well as suggestions for portfolio composition to insure moderate risk/return profile.
+
+[
+<img width="601" alt="Screen Shot 2021-05-18 at 10 28 47 AM" src="https://user-images.githubusercontent.com/80833988/118697206-e72e2980-b7c3-11eb-86c7-bb9ba63a7125.png">
+](url)
+
+
+
+###  Overview of the project and project goals.
+
+* We’re been tasked with evaluating various  investment options  for inclusion in the client portfolios. Need to determine the options with most investment potential based on key risk-management metrics: the daily returns, standard deviations, Sharpe ratios.
+* To keep the costs low, the firm uses algorithms to build each client's portfolio. The algorithms choose from various investment styles and options.
+* Our solution is for unexperienced investor-somebody with low risk tolerance, Interested in cryptocurrency but would like to chose the ones with higher returns to create a riskier part of portfolio with higher returns to take advantage of emerging market
+* On one hand, our customer does not have a time to individually pick the stock-so we chose 3 most popular indexes, which will introduce diversify to a  customers portfolio in allow user to have moderate returns with lower risk as user plans for retirement 
+
+[
+<img width="446" alt="Screen Shot 2021-05-18 at 10 38 59 AM" src="https://user-images.githubusercontent.com/80833988/118698527-5f491f00-b7c5-11eb-8970-157d7b6fe5eb.png">
+](url)
+
+* On the other hand, following the hype of emerging crypto market, our investor would like to take  an advantage of fabulous returns. For this reason we decided to introduce moderate risk into the portfolio, by picking one of the most known and established cryptocurrencies on the market: Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC) and Ripple (XRP) to balance out low-risk low-return index portion
+
+
+### What special about out project?
+
+
+[
+<img width="1188" alt="Screen Shot 2021-05-18 at 10 43 02 AM" src="https://user-images.githubusercontent.com/80833988/118699057-f1e9be00-b7c5-11eb-8767-eccf1652c50b.png">
+](url)
+
+
+* Very well  commented code with deeply analyses and explained results for technical user lacking an understanding
+* Reading financial data and making the connection between code results and meaning of it for the user unexperienced in financial tools and lanscrape
+
+
+
+## Software version control
+
+### Libraries / interfaces
+*  Pandas - is a software library designed for data analytics that makes it easier to work with data from practically any type of file. Pandas supplies powerful tools for working with time data in particular, and time is a key aspect of financial analysis. Analysts typically compare and measure financial assets—from single stocks to large portfolios—across time.
+* With the combination of Pandas and Jupyter Notebook, you can efficiently import, prepare, and analyze data of any type or quantity.
+* Following libraries were used to analyze the data
+
+```
+# Import the required libraries and dependencies
+import os
+import requests
+import json
+import pandas as pd
+from dotenv import load_dotenv
+import alpaca_trade_api as tradeapi
+from pathlib import Path
+import numpy as np
+import matplotlib.pyplot as plt
+import hvplot.pandas
+import seaborn as sns
+%matplotlib inline
+
+```
+    
+### Work with GitHub
+* Repository created on GitHub
+* Our group made sure that files  were frequently committed to repository
+* Our repository is organized, and includes Resources folder with CSV  project files, 
+* Jupyter Notebook with code well commented with concise, relevant notes.
+* Detailed explanation of each step with explanation of financial data and conclusions of analyses (example)
+
+### How to install
 
 * Save remote repo from GitHub to your computer (Desktop): in Terninal type:
 
@@ -77,97 +132,41 @@ cd <relative-path-to-notebook>
 voila <notebook_name>
 
 ```
-
-
-[
-<img width="705" alt="Screen Shot 2021-05-08 at 10 52 32 AM" src="https://user-images.githubusercontent.com/80833988/117548809-d3c4d680-afeb-11eb-9474-352ea917472e.png">
-](url)
-
-
-
-
 The file will be opened into default WEB browser
 
+## Work with data
+
+### Data Collection
+
+* We used various skills learned in a bootcamp and various sources of date to collect information: data collected from CSV files, APIs, or databases by using Python or a Python library
+* WEB sites 
+* CSV files and functions -Import data from a CSV file into a Pandas DataFrame.
+* API calls (web site, code example)
+* Alpaca Api calls (create a .env file -explanation how to create)
+* Describe the source of your data and why you chose it for your project. === 	•	Import data from a CSV file into a Pandas DataFrame.
+
+### Cleanup & Analyse
+
+* We identified and cleaned up missing, incomplete, erroneous, and duplicated text values in the dataset
+* Generate summary statistics and visualizations to help you better understand the DataFrame
+* Reorganized  subsets of information within the DataFrame to do a targeted analysis
+* Write Python code to capture the price differences across the cryptocurrency market.
+
+
+### Data visualization 
+* The next step was to dive a bit more deeply into that data through visualizations.
+* Some sets of data to analyses use a simple plot function, but for others included longer time period and overlaying data we included interactive visualizations to explore and uncover relationships and patterns in your data
+* We will be able to present information to our client using Voila 
 
 
 
-https://user-images.githubusercontent.com/80833988/117549147-8b0e1d00-afed-11eb-8cf9-645af93aa7f9.mov
-
-
-
-
-
-
-
-Following video demonstrates Interactive Visualisations via hvplot 
-
-
-
-
-
-
-
-
-https://user-images.githubusercontent.com/80833988/117549047-218e0e80-afed-11eb-8801-e31d702cae9b.mov
-
-
-
-
-
-## Technologies used
-
-### Libraries
-
-
-We are using Pandas- a software library written for the Python programming language for data manipulation and analysis.
-The following libriries has to be imported:
-
-```
-import numpy as np
-import pandas as pd
-import hvplot.pandas
-import sqlalchemy
-
-```
-
-In particular, Pandas offers data structures and operations for manipulating numerical tables and time series. It is free software released under the three-clause BSD license.
-
-> " Written in: Python, Cython, C .  
-Original author(s): Wes McKinney. . 
-License: New BSD License
-"
-
-
-### Languages 
-
-* Python
-* SQL
-
-
-### Interfaces
-
-* Jupyter Lab
-* GitHub
-
-
-
-## Helps recruiters
-
-* The project was created in collaboration with Berkeley Fintech Bootcamp team: Allan Hall, Joel Gonzales, Siege.
-* Tutor Lavina Tang helped me to polish my code and tought me how to run separate parts of code to see if it works every step.
-* AskBCS Learning Assistant channel was used to troubleshoot some of the accuring problems outside of the classroom
-
----
-
-Feel free to contact me via channels
-
-* Email:(nataliaburrey@gmail.com) 
-* LinkedIn: (https://www.linkedin.com/in/natalia-burrey-181822175/)
-
-
-
----
-
-* License
+## License
 
 MIT
+
+## Links
+
+* [Resourses](https://github.com/nataliaburrey/project_1/tree/main/Resources)
+* [Jupyter Lab](https://github.com/nataliaburrey/project_1/blob/main/project_1.ipynb)
+* [Repository copy link](https://github.com/nataliaburrey/project_1.git)
+
