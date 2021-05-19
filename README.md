@@ -22,7 +22,21 @@ In this Project, we assumed the role of a quantitative analyst for a FinTech inv
 
 
 ## Table of content
-- [Links Links](https://github.com/nataliaburrey/project_1#links)
+- [An executive summary](https://github.com/nataliaburrey/project_1#an-executive-summary)
+    - [Overview of the project and project goals](https://github.com/nataliaburrey/project_1#overview-of-the-project-and-project-goals)
+    - [What is special about out project?](https://github.com/nataliaburrey/project_1#what-special-about-out-project)
+- [Software version control](https://github.com/nataliaburrey/project_1#software-version-control)
+    - [Libraries / interfaces](https://github.com/nataliaburrey/project_1#libraries--interfaces)
+    - [Work with GitHub](https://github.com/nataliaburrey/project_1#work-with-github)
+    - [How to install](https://github.com/nataliaburrey/project_1#how-to-install)
+    - [How to use Voila](https://github.com/nataliaburrey/project_1#how-to-use-voila)
+    - [Run Alpaca]((https://github.com/nataliaburrey/project_1#run-alpaca)
+- [Work with data](https://github.com/nataliaburrey/project_1#work-with-data)
+    - [Data Collection](https://github.com/nataliaburrey/project_1#data-collection)
+    - [Cleanup & Analyse](https://github.com/nataliaburrey/project_1#cleanup--analyse)
+    - [Data visualization](https://github.com/nataliaburrey/project_1#data-visualization)
+- [License](https://github.com/nataliaburrey/project_1#license)
+- [Links](https://github.com/nataliaburrey/project_1#links)
 
 
 
@@ -52,7 +66,7 @@ In this Project, we assumed the role of a quantitative analyst for a FinTech inv
 * On the other hand, following the hype of emerging crypto market, our investor would like to take  an advantage of fabulous returns. For this reason we decided to introduce moderate risk into the portfolio, by picking one of the most known and established cryptocurrencies on the market: Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC) and Ripple (XRP) to balance out low-risk low-return index portion
 
 
-### What special about out project?
+### What is special about out project?
 
 * Very well  commented code with deeply analyses and explained results for technical user lacking an understanding
 * Reading financial data and making the connection between code results and meaning of it for the user unexperienced in financial tools and lanscrape
@@ -86,7 +100,23 @@ import seaborn as sns
 %matplotlib inline
 
 ```
-    
+ ## Run Alpaca
+
+In order to succesfully run the file you have to generate your own Alpaca key and save it to .env file. Those files are hidden so Hold down the Command, Shift and Period keys (for Mac) to be sure you have it in the same folder as Jupyter Lab notebook
+
+```
+ cmd + shift + [.]
+```
+To generate Alpaca key you have to create your own account and request a new key. Save it in .env file, make sure to name the variables ALPACA_API_KEY and ALPACA_SECRET_KEY 
+```
+
+ALPACA_API_KEY = '<your key>'
+ALPACA_SECRET_KEY = '<your key>'
+
+```
+
+Those steps are nessesary to maintain a security of private information. 
+
 ### Work with GitHub
 * Repository created on GitHub
 * Our group made sure that files  were frequently committed to repository
