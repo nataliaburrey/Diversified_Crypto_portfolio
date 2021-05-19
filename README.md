@@ -36,7 +36,7 @@ In this Project, we assumed the role of a quantitative analyst for a FinTech inv
     - [Cleanup & Analyse](https://github.com/nataliaburrey/project_1#cleanup--analyse)
     - [Data visualization](https://github.com/nataliaburrey/project_1#data-visualization)
 - [License](https://github.com/nataliaburrey/project_1#license)
-- [Team]()
+- [Team](https://github.com/nataliaburrey/project_1/blob/main/README.md#team)
 - [Links](https://github.com/nataliaburrey/project_1#links)
 
 
