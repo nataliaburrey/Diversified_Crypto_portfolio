@@ -185,11 +185,24 @@ https://user-images.githubusercontent.com/80833988/118703354-db923100-b7ca-11eb-
 ### Data Collection
 
 * We used various skills learned in a bootcamp and various sources of date to collect information: data collected from CSV files, APIs, or databases by using Python or a Python library
-* WEB sites 
-* CSV files and functions -Import data from a CSV file into a Pandas DataFrame.
-* API calls (web site, code example)
-* Alpaca Api calls (create a .env file -explanation how to create)
-* Describe the source of your data and why you chose it for your project. === 	•	Import data from a CSV file into a Pandas DataFrame.
+* Source of data: Cryptocurrensies - [Coindesk](https://www.coindesk.com/), ETF index funds - [Fred](https://fred.stlouisfed.org/)
+* Imported data from a CSV file into a Pandas DataFrame.
+* API calls: Cryptocurrensies - JSON 
+
+[
+<img width="1198" alt="Screen Shot 2021-05-18 at 8 01 09 PM" src="https://user-images.githubusercontent.com/80833988/118750208-d7d6cc80-b813-11eb-832d-64a149eea0df.png">
+](url)
+
+
+* ETF index funds - [Alpaca](https://alpaca.markets/)
+
+
+[
+<img width="1178" alt="Screen Shot 2021-05-18 at 8 03 37 PM" src="https://user-images.githubusercontent.com/80833988/118750423-4156db00-b814-11eb-9a7e-6044ac0ba6ca.png">
+](url)
+
+
+* 
 
 ### Cleanup & Analyse
 
