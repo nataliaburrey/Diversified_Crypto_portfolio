@@ -36,6 +36,7 @@ In this Project, we assumed the role of a quantitative analyst for a FinTech inv
     - [Cleanup & Analyse](https://github.com/nataliaburrey/project_1#cleanup--analyse)
     - [Data visualization](https://github.com/nataliaburrey/project_1#data-visualization)
 - [License](https://github.com/nataliaburrey/project_1#license)
+- [Team]()
 - [Links](https://github.com/nataliaburrey/project_1#links)
 
 
@@ -216,7 +217,10 @@ https://user-images.githubusercontent.com/80833988/118703354-db923100-b7ca-11eb-
 * Some sets of data to analyses use a simple plot function, but for others included longer time period and overlaying data we included interactive visualizations to explore and uncover relationships and patterns in your data
 * We will be able to present information to our client using [Voila](https://github.com/nataliaburrey/project_1/blob/main/README.md#how-to-use-voila)
 
-
+## Team
+* [Natalia Burrey](https://github.com/nataliaburrey)
+* [Van Maquilan](https://github.com/VanMSM)
+* [Nestor Ramirez](https://github.com/nestor39)
 
 ## License
 
