@@ -30,7 +30,7 @@ In this Project, we assumed the role of a quantitative analyst for a FinTech inv
     - [Work with GitHub](https://github.com/nataliaburrey/project_1#work-with-github)
     - [How to install](https://github.com/nataliaburrey/project_1#how-to-install)
     - [How to use Voila](https://github.com/nataliaburrey/project_1#how-to-use-voila)
-    - [Run Alpaca]((https://github.com/nataliaburrey/project_1#run-alpaca)
+    - [Run Alpaca](https://github.com/nataliaburrey/project_1/blob/main/README.md#run-alpaca)
 - [Work with data](https://github.com/nataliaburrey/project_1#work-with-data)
     - [Data Collection](https://github.com/nataliaburrey/project_1#data-collection)
     - [Cleanup & Analyse](https://github.com/nataliaburrey/project_1#cleanup--analyse)
@@ -194,7 +194,7 @@ https://user-images.githubusercontent.com/80833988/118703354-db923100-b7ca-11eb-
 ](url)
 
 
-* ETF index funds - [Alpaca](https://alpaca.markets/)
+* ETF index funds - [Alpaca](https://alpaca.markets/) - instructions on installation [Run Alpaca](https://github.com/nataliaburrey/project_1/blob/main/README.md#run-alpaca)
 
 
 [
@@ -202,7 +202,6 @@ https://user-images.githubusercontent.com/80833988/118703354-db923100-b7ca-11eb-
 ](url)
 
 
-* 
 
 ### Cleanup & Analyse
 
@@ -215,7 +214,7 @@ https://user-images.githubusercontent.com/80833988/118703354-db923100-b7ca-11eb-
 ### Data visualization 
 * The next step was to dive a bit more deeply into that data through visualizations.
 * Some sets of data to analyses use a simple plot function, but for others included longer time period and overlaying data we included interactive visualizations to explore and uncover relationships and patterns in your data
-* We will be able to present information to our client using Voila 
+* We will be able to present information to our client using [Voila](https://github.com/nataliaburrey/project_1/blob/main/README.md#how-to-use-voila)
 
 
 
