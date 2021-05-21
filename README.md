@@ -35,6 +35,7 @@ In this Project, we assumed the role of a quantitative analyst for a FinTech inv
     - [Data Collection](https://github.com/nataliaburrey/project_1#data-collection)
     - [Cleanup & Analyse](https://github.com/nataliaburrey/project_1#cleanup--analyse)
     - [Data visualization](https://github.com/nataliaburrey/project_1#data-visualization)
+- [Results and summary of the analysis](https://github.com/nataliaburrey/project_1/blob/main/README.md#results-and-summary-of-the-analysis)
 - [License](https://github.com/nataliaburrey/project_1#license)
 - [Team](https://github.com/nataliaburrey/project_1/blob/main/README.md#team)
 - [Links](https://github.com/nataliaburrey/project_1#links)
@@ -234,29 +235,40 @@ Financial analyses we used include following steps:
 ](url)
 
 We presented results into interactive hvplots like:
-LinePlot for Cumulative return
+* LinePlot for Cumulative return
+
+
+
 [
-<img width="1177" alt="Screen Shot 2021-05-20 at 8 41 26 PM" src="https://user-images.githubusercontent.com/80833988/119078885-e9eb7300-b9ab-11eb-8a5b-9a39c97c07a7.png">
+<img width="1143" alt="Screen Shot 2021-05-20 at 8 51 59 PM" src="https://user-images.githubusercontent.com/80833988/119079605-44390380-b9ad-11eb-9d25-bf9d3a27bac7.png">
 ](url)
 
-Box Plot for daily returnes
+
+
+* Box Plot for daily returnes
+
 [
-<img width="711" alt="Screen Shot 2021-05-20 at 8 43 44 PM" src="https://user-images.githubusercontent.com/80833988/119078981-1c956b80-b9ac-11eb-9c0e-38245c10d13a.png">
+<img width="1110" alt="Screen Shot 2021-05-20 at 8 53 45 PM" src="https://user-images.githubusercontent.com/80833988/119079701-7a768300-b9ad-11eb-857f-924a15957290.png">
 ](url)
 
-Heatmap for correlation of the assets
+* Heatmap for correlation of the assets
 
 [
 <img width="1210" alt="Screen Shot 2021-05-20 at 8 46 43 PM" src="https://user-images.githubusercontent.com/80833988/119079210-84e44d00-b9ac-11eb-9f75-bd0a9f8a62ae.png">
 ](url)
 
-The resulting portfolio is presented in a pie chart to better understand procentage
+* The resulting portfolio is presented in a pie chart to better understand procentage
 
 [
 <img width="1711" alt="Screen Shot 2021-05-20 at 8 33 54 PM" src="https://user-images.githubusercontent.com/80833988/119079072-3fc01b00-b9ac-11eb-87c7-2515a5d59609.png">
 ](url)
 
+* Next steps for our project would be following
 
+
+[
+<img width="796" alt="Screen Shot 2021-05-20 at 8 54 55 PM" src="https://user-images.githubusercontent.com/80833988/119079768-a4c84080-b9ad-11eb-9a0c-e26617995274.png">
+](url)
 
 
 ## Team
