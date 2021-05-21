@@ -102,6 +102,15 @@ import seaborn as sns
 %matplotlib inline
 
 ```
+
+* New libriry we used helped us to clean the warnings in the code
+
+[
+<img width="1165" alt="Screen Shot 2021-05-20 at 8 57 23 PM" src="https://user-images.githubusercontent.com/80833988/119079932-012b6000-b9ae-11eb-8d96-1bbffc8b5c31.png">
+](url)
+
+
+
  ## Run Alpaca
 
 In order to succesfully run the file you have to generate your own Alpaca key and save it to .env file. Those files are hidden so Hold down the Command, Shift and Period keys (for Mac) to be sure you have it in the same folder as Jupyter Lab notebook
