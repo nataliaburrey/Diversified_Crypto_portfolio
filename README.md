@@ -217,6 +217,48 @@ https://user-images.githubusercontent.com/80833988/118703354-db923100-b7ca-11eb-
 * Some sets of data to analyses use a simple plot function, but for others included longer time period and overlaying data we included interactive visualizations to explore and uncover relationships and patterns in your data
 * We will be able to present information to our client using [Voila](https://github.com/nataliaburrey/project_1/blob/main/README.md#how-to-use-voila)
 
+
+### Results and summary of the analysis
+
+Data cleanup resulting DataFrame
+
+[
+<img width="657" alt="Screen Shot 2021-05-19 at 10 11 51 PM" src="https://user-images.githubusercontent.com/80833988/119078600-5e71e200-b9ab-11eb-9e4a-24587362802d.png">
+](url)
+
+
+Financial analyses we used include following steps:
+
+[
+<img width="834" alt="Screen Shot 2021-05-20 at 8 34 40 PM" src="https://user-images.githubusercontent.com/80833988/119078491-28346280-b9ab-11eb-815f-598a9b919960.png">
+](url)
+
+We presented results into interactive hvplots like:
+LinePlot for Cumulative return
+[
+<img width="1177" alt="Screen Shot 2021-05-20 at 8 41 26 PM" src="https://user-images.githubusercontent.com/80833988/119078885-e9eb7300-b9ab-11eb-8a5b-9a39c97c07a7.png">
+](url)
+
+Box Plot for daily returnes
+[
+<img width="711" alt="Screen Shot 2021-05-20 at 8 43 44 PM" src="https://user-images.githubusercontent.com/80833988/119078981-1c956b80-b9ac-11eb-9c0e-38245c10d13a.png">
+](url)
+
+Heatmap for correlation of the assets
+
+[
+<img width="1210" alt="Screen Shot 2021-05-20 at 8 46 43 PM" src="https://user-images.githubusercontent.com/80833988/119079210-84e44d00-b9ac-11eb-9f75-bd0a9f8a62ae.png">
+](url)
+
+The resulting portfolio is presented in a pie chart to better understand procentage
+
+[
+<img width="1711" alt="Screen Shot 2021-05-20 at 8 33 54 PM" src="https://user-images.githubusercontent.com/80833988/119079072-3fc01b00-b9ac-11eb-87c7-2515a5d59609.png">
+](url)
+
+
+
+
 ## Team
 * [Natalia Burrey](https://github.com/nataliaburrey)
 * [Van Maquilan](https://github.com/VanMSM)
