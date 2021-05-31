@@ -294,4 +294,5 @@ MIT
 * [Resourses](https://github.com/nataliaburrey/project_1/tree/main/Resources)
 * [Jupyter Lab](https://github.com/nataliaburrey/project_1/blob/main/project_1.ipynb)
 * [Repository copy link](https://github.com/nataliaburrey/project_1.git)
+* [Presentation Prezi Website](https://prezi.com/view/2m5CSMX9Nozv6hMKnbH7/)
 
